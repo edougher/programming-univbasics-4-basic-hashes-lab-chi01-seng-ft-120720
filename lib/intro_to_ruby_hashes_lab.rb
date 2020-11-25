@@ -18,8 +18,6 @@ end
 
 
 def id_hash_generator(number)
-  number = number
-  number_hash = Hash.new
-  number_hash{:id => number}
+  {:id => number}
 end
 id_hash_generator(5)
